@@ -1,0 +1,48 @@
+{
+  "manifest_version": "0.3",
+  "name": "pricepilot",
+  "display_name": "PricePilot",
+  "version": "1.0.0",
+  "description": "CPG pricing intelligence — competitive benchmarks, category trends, and price positioning for consumer brands.",
+  "long_description": "PricePilot gives CPG brand managers instant access to competitive pricing benchmarks powered by real Amazon marketplace data. Compare your products against category averages, track pricing trends, and understand your price position — all through natural conversation with Claude.\n\nDesigned for brands doing $1M-$50M in revenue who are priced out of NielsenIQ and enterprise analytics.",
+  "author": {
+    "name": "Vantage Meridian Group",
+    "email": "scott@vantagemeridiangroup.com",
+    "url": "https://pricepilot.vantagemeridiangroup.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vantage-meridian-group/pricepilot-mcpb"
+  },
+  "homepage": "https://pricepilot.vantagemeridiangroup.com",
+  "support": "https://github.com/vantage-meridian-group/pricepilot-mcpb/issues",
+  "icon": "icon.png",
+  "privacy_policies": [
+    "https://pricepilot.vantagemeridiangroup.com/privacy"
+  ],
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.js"],
+      "env": {
+        "PRICEPILOT_API_URL": "https://pricepilot-mcp.onrender.com"
+      }
+    }
+  },
+  "tools": [
+    { "name": "get_price_position", "description": "Get competitive price positioning for a product against category benchmarks" },
+    { "name": "get_category_trend", "description": "Get pricing trend data for a product category over time" },
+    { "name": "get_category_overview", "description": "Get a summary overview of a product category including key metrics" },
+    { "name": "compare_products", "description": "Compare pricing data across multiple products in a category" },
+    { "name": "list_categories", "description": "List all available product categories with metadata" },
+    { "name": "server_status", "description": "Check PricePilot server health and available data" }
+  ],
+  "keywords": ["pricing", "cpg", "ecommerce", "benchmarks", "competitive-intelligence", "amazon"],
+  "license": "MIT",
+  "compatibility": {
+    "claude_desktop": ">=1.0.0",
+    "platforms": ["darwin", "win32"]
+  }
+}

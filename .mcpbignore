@@ -1,0 +1,8 @@
+test/
+.github/
+.gitignore
+vitest.config.*
+coverage/
+*.test.js
+*.test.ts
+.DS_Store
