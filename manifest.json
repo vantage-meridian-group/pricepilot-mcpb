@@ -8,17 +8,17 @@
   "author": {
     "name": "Vantage Meridian Group",
     "email": "scott@vantagemeridiangroup.com",
-    "url": "https://pricepilot.vantagemeridiangroup.com"
+    "url": "https://app.pricepilot.vantagemeridiangroup.com"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/vantage-meridian-group/pricepilot-mcpb"
   },
-  "homepage": "https://pricepilot.vantagemeridiangroup.com",
+  "homepage": "https://app.pricepilot.vantagemeridiangroup.com",
   "support": "https://github.com/vantage-meridian-group/pricepilot-mcpb/issues",
   "icon": "icon.png",
   "privacy_policies": [
-    "https://pricepilot.vantagemeridiangroup.com/privacy"
+    "https://app.pricepilot.vantagemeridiangroup.com/privacy"
   ],
   "server": {
     "type": "node",

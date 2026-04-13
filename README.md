@@ -64,7 +64,7 @@ Butter at $12.49, and Granola at $7.99 in the Grocery category"
 
 ## Privacy Policy
 
-See [Privacy Policy](https://pricepilot.vantagemeridiangroup.com/privacy).
+See [Privacy Policy](https://app.pricepilot.vantagemeridiangroup.com/privacy).
 
 PricePilot processes only the pricing queries you send — product prices
 and category names. No personal data, conversation content, or browsing
@@ -74,4 +74,4 @@ history is collected or stored.
 
 - [GitHub Issues](https://github.com/vantage-meridian-group/pricepilot-mcpb/issues)
 - Email: scott@vantagemeridiangroup.com
-- Website: [pricepilot.vantagemeridiangroup.com](https://pricepilot.vantagemeridiangroup.com)
+- Website: [app.pricepilot.vantagemeridiangroup.com](https://app.pricepilot.vantagemeridiangroup.com)
