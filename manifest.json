@@ -2,7 +2,7 @@
   "manifest_version": "0.3",
   "name": "pricepilot",
   "display_name": "PricePilot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CPG pricing intelligence — competitive benchmarks, category trends, and price positioning for consumer brands.",
   "long_description": "PricePilot gives CPG brand managers instant access to competitive pricing benchmarks powered by real Amazon marketplace data. Compare your products against category averages, track pricing trends, and understand your price position — all through natural conversation with Claude.\n\nDesigned for brands doing $1M-$50M in revenue who are priced out of NielsenIQ and enterprise analytics.",
   "author": {

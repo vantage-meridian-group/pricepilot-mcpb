@@ -1,6 +1,6 @@
 {
   "name": "pricepilot-mcpb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PricePilot CPG pricing intelligence for Claude Desktop",
   "type": "module",
   "main": "server/index.js",
